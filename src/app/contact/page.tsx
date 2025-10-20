@@ -20,7 +20,7 @@ export default function Contact() {
       name: "Evan Wahyu Ezra Manurung",
       NIM: "0920240062",
       phone: "0814-9355-9770",
-      ig: "hellwize",
+      ig: "@hellwize",
       img: "/anggota3.png",
       color: "from-[var(--color-green)] to-[var(--color-blue)]",
     },
