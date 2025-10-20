@@ -21,7 +21,7 @@ export default function Contact() {
       NIM: "0920240062",
       phone: "0814-9355-9770",
       ig: "@hellwize",
-      img: "/anggota3.png",
+      img: "/evan.jpg",
       color: "from-[var(--color-green)] to-[var(--color-blue)]",
     },
     {
