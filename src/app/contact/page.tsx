@@ -16,7 +16,7 @@ export default function Contact() {
       phone: "0822-9572-7085",
       ig: "@anggota2_ui",
       img: "/anggota2.png",
-      color: "from-orangeVar to-purpleVar",
+      color: "from-[var(--color-pink)] to-[var(--color-green)]",
     },
     {
       name: "Evan Wahyu Ezra Manurung",
@@ -32,7 +32,7 @@ export default function Contact() {
       phone: "0812-1792-5082",
       ig: "@anggota4_art",
       img: "/anggota4.png",
-      color: " from-purpleVar to-orangeVar",
+      color: "from-[var(--color-pink)] to-[var(--color-green)]",
     },
   ];
 
