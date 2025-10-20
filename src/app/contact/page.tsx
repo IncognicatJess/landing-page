@@ -51,6 +51,7 @@ export default function Contact() {
               className="w-24 h-24 mx-auto rounded-full border-4 border-white mb-4 object-cover"
             />
             <h2 className="text-2xl font-bold">{c.name}</h2>
+            <p className="text-sm opacity-90">{c.NIM}</p>
             <p>{c.phone}</p>
             <p>{c.ig}</p>
           </div>
