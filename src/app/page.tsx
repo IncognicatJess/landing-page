@@ -9,7 +9,7 @@ export default function Home() {
         <strong>Next.js</strong>. Kami mempelajari konsep SSR, routing, dan
         styling modern berbasis Tailwind CSS.
       </p>
-      <p className="text-md text-gray-500">TRPL 1A • Politeknik Astra • 2025</p>
+      <p className="text-md text-gray-500">TRPL 2A • Politeknik Astra • 2025</p>
     </main>
   );
 }

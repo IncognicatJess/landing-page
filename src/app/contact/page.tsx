@@ -2,6 +2,7 @@ export default function Contact() {
   const contacts = [
     {
       name: "Jaisyu Nur Muhammadi",
+      NIM : "",
       phone: "0851-8475-3922",
       ig: "@jeizoo",
       img: "/jes2.png",
@@ -9,21 +10,24 @@ export default function Contact() {
     },
     {
       name: "Kesya Noventa Salsabila",
-      phone: "0813-xxxx-xxxx",
+      NIM: "0920240056",
+      phone: "0822-9572-7085",
       ig: "@anggota2_ui",
       img: "/anggota2.png",
       color: "from-[var(--color-orange)] to-[var(--color-purple)]",
     },
     {
       name: "Evan Wahyu Ezra Manurung",
-      phone: "0814-xxxx-xxxx",
-      ig: "@anggota3_code",
+      NIM: "0920240062",
+      phone: "0814-9355-9770",
+      ig: "hellwize",
       img: "/anggota3.png",
       color: "from-[var(--color-green)] to-[var(--color-blue)]",
     },
     {
       name: "Nayla Raissa Putri",
-      phone: "0815-xxxx-xxxx",
+      NIM: "0920240057",
+      phone: "0812-1792-5082",
       ig: "@anggota4_art",
       img: "/anggota4.png",
       color: "from-[var(--color-purple)] to-[var(--color-orange)]",
