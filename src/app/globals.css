@@ -1,8 +1,60 @@
-@import "tailwindcss";
+/* src/app/globals.css */
 
+/* 1) Font (contoh Poppins via Google - tetap pakai Next font juga di layout jika ingin) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* 2) Tailwind v4 imports (preflight + theme + utilities).
+   Order & layer directives penting. */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* 3) Global CSS variables / root theme */
 :root {
-  --color-blue: #2563eb;
-  --color-orange: #f97316;
-  --color-green: #10b981;
-  --color-purple: #a855f7;
+  --color-blue: #3b82f6;
+  --color-pink: #f472b6;
+  --color-yellow: #facc15;
+  --color-green: #34d399;
+  --radius-lg: 1rem;
+  --color-orange: 251 146 60; /* #fb923c */
+  --color-purple: 168 85 247; /* #a855f7 */
+}
+
+/* 4) Custom base styles (jika perlu) */
+@layer base {
+  html,
+  body {
+    font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial;
+    background: linear-gradient(180deg, #fffafc 0%, #fff7fb 100%);
+    color: #0f172a;
+  }
+}
+
+/* 5) Custom component classes (pakai @layer components untuk kelas kustom) */
+@layer components {
+  .card {
+    @apply rounded-2xl shadow-md p-6 bg-white/60 backdrop-blur-sm;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-5 py-2 rounded-full font-semibold text-white;
+    background: linear-gradient(90deg, var(--color-green), var(--color-yellow));
+  }
+}
+
+/* 6) Custom utilities / animations */
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-in-out;
+  }
 }
