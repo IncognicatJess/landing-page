@@ -4,7 +4,7 @@ export default function About() {
     {
       name: "Anggota 2",
       role: "Frontend Developer",
-      color: "bg-[var(--color-orange)]",
+      color: "bg-orangeVar",
     },
     {
       name: "Anggota 3",
@@ -14,14 +14,14 @@ export default function About() {
     {
       name: "Anggota 4",
       role: "UI/UX Designer",
-      color: "bg-[var(--color-purple)]",
+      color: "bg-purpleVar",
     },
   ];
 
   return (
-    <main className="p-10 text-center">
-      <h1 className="text-4xl font-bold mb-8 text-[var(--color-blue)]">
-        Tentang Kelompok 1
+    <main className="p-10 text-center animate-fade-in">
+      <h1 className="text-4xl font-bold mb-8 bg-gradient-to-r from-[var(--color-blue)] to-[var(--color-pink)] bg-clip-text text-transparent">
+        Tentang Kami
       </h1>
       <p className="max-w-2xl mx-auto text-gray-600 mb-10">
         Kami adalah kelompok mahasiswa Software Engineering Politeknik Astra

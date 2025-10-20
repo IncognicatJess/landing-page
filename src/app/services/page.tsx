@@ -7,7 +7,7 @@ export default function Services() {
   ];
 
   return (
-    <main className="p-10 text-center">
+    <main className="p-10 text-center animate-fade-in">
       <h1 className="text-4xl font-bold mb-8 text-[var(--color-green)]">
         Pembagian Tugas
       </h1>
