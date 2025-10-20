@@ -2,7 +2,7 @@ export default function Contact() {
   const contacts = [
     {
       name: "Jaisyu Nur Muhammadi",
-      NIM : "",
+      NIM : "0920240034",
       phone: "0851-8475-3922",
       ig: "@jeizoo",
       img: "/jes2.png",
