@@ -1,10 +1,10 @@
 export default function About() {
   const members = [
-    { name: "Master", role: "Koordinator", color: "bg-[var(--color-blue)]" },
+    { name: "Master", role: "Koordinator", color: "bg-[var(--color-green)]" },
     {
       name: "Anggota 2",
       role: "Frontend Developer",
-      color: "bg-[var(--color-orange)]",
+      color: "bg-[var(--color-pink)]",
     },
     {
       name: "Anggota 3",
@@ -14,7 +14,7 @@ export default function About() {
     {
       name: "Anggota 4",
       role: "UI/UX Designer",
-      color: "bg-[var(--color-purple)]",
+      color: "bg-[var(--color-pink)]",
     },
   ];
 
