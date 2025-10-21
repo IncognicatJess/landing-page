@@ -4,7 +4,7 @@ export default function About() {
     {
       name: "Anggota 2",
       role: "Frontend Developer",
-      color: "bg-orangeVar",
+      color: "bg-[var(--color-orange)]",
     },
     {
       name: "Anggota 3",
@@ -14,7 +14,7 @@ export default function About() {
     {
       name: "Anggota 4",
       role: "UI/UX Designer",
-      color: "bg-purpleVar",
+      color: "bg-[var(--color-purple)]",
     },
   ];
 
